@@ -1,0 +1,66 @@
+.c-bg-pattern {
+  background: url("../../images/bg-pattern-footer.png") repeat left top;
+}
+
+.c-bg-pattern__right {
+  background-image:  url("../images/bg-pattern-tiny.png");
+  background-position: 400% 0;
+  background-repeat: no-repeat;
+
+  @include media-breakpoint-up(sm) {
+    background-position: 150% 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    background-position: 128% 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-image:  url(../images/bg-pattern.png);
+    background-position: 150% 0;
+  }
+
+  @include media-breakpoint-up(xl) {
+    background-position: right top;
+  }
+}
+
+.c-bg-pattern__box {
+  background:  url(../images/bg-pattern.png) right top no-repeat;
+  width: 100%;
+  height: 56px;
+
+  @include media-breakpoint-up(md) {
+    height: 98px;
+    width: 460px;
+  }
+}
+
+.c-bg-insights {
+  width: 100%;
+  padding: 40px 0 20px;
+  background-image:  url(../images/biko-insights.png);
+  background-position: -60% center;
+  background-repeat: no-repeat;
+
+  @include media-breakpoint-only(xs) {
+    background-size: 150%;
+  }
+
+  @include media-breakpoint-up(sm) {
+    padding: 120px 0 90px;
+    background-position: -20% center;
+  }
+
+  @include media-breakpoint-up(md) {
+    background-position: -50% center;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-position: 150px center;
+  }
+
+  @include media-breakpoint-up(xl) {
+    background-position: right center;
+  }
+}

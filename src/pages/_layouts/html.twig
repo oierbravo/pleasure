@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{title}}</title>
+    <meta name="title" content="{{title}} | {{site.name}}" />
+    <meta name="description" content="{{description}}">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="{{twitter.card}}">
+    <meta name="twitter:site" content="{{twitter.site}}">
+    <meta name="twitter:title" content="{{twitter.title}}">
+    <meta name="twitter:description" content="{{twitter.description}}">
+    <meta name="twitter:creator" content="{{twitter.creator}}">
+    <!-- Las imágenes de sumario de Twitter deben ser de al menos 200x200px -->
+    <meta name="twitter:image" content="{{twitter.image}}">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="{{og.title}}" />
+    <meta property="og:type" content="{{og.type}}" />
+    <meta property="og:url" content="{{site.url}}" />
+    <meta property="og:image" content="{{og.image}}" />
+    <meta property="og:description" content="{{og.description}}" />
+    <!--meta property="og:site_name" content="{{site.name}}" /meta property="fb:admins" content="Facebook numeric ID" /-->
+
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <!-- inject:css -->
+        <!-- endinject -->
+
+
+
+    </head>
+    <body class="page-{{currentMenu}}">
+        {% block body %}
+        {% endblock %}
+        <!-- inject:vendors:js -->
+        <!-- endinject -->
+        <!-- inject:js -->
+        <!-- endinject -->
+        {% include '_includes/grpd.twig' %}
+    </body>
+</html>

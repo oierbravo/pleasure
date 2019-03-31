@@ -1,0 +1,39 @@
+.c-icon-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin-bottom: 42px;
+  }
+}
+
+.c-icon-list__icon {
+  text-align: center;
+  padding-top: 8px;
+  margin-right: 15px;
+
+  @include media-breakpoint-down(sm) {
+    padding-left: 0;
+  }
+}
+
+.c-icon-list__title {
+  @extend .h-huge;
+  font-weight: 700;
+  margin-bottom: 1rem;
+
+  @include media-breakpoint-down(sm) {
+    @include typi(big);
+    line-height: $line-height-medium;
+  }
+}
+
+.c-icon-list__text{
+  width: 90%;
+  margin-bottom: 0;
+
+  @include media-breakpoint-up(lg) {
+    width: 55%;
+  }
+}

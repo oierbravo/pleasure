@@ -1,0 +1,20 @@
+{
+  "name": "pleasure",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "gulp": "^4.0.0",
+    "gulp-tasks-pleasure": "0.0.2",
+    "include-media": "^1.4.9",
+    "jquery": "^3.3.1",
+    "modularscale-sass": "^3.0.8",
+    "typi": "^3.2.0"
+  }
+}

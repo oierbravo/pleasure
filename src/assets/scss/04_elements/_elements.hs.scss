@@ -1,0 +1,22 @@
+h1, .h-extrahuge {
+  font-family: "Montserrat", "Arial Black", sans-serif;
+  font-weight: 300;
+  @include typi(extrahuge);
+  line-height: 100px;
+  margin-bottom: 1rem;
+}
+
+h2, .h-huge {
+  font-family: "Montserrat", "Arial Black", sans-serif;
+  font-weight: 300;
+  @include typi(huge);
+
+  strong {font-weight: 900;}
+}
+
+h3, .h-big {
+  font-family: "Montserrat", "Arial Black", sans-serif;
+  font-weight: 300;
+  @include typi(big);
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,33 @@
+////
+/// @group spacing
+////
+
+/// Define el valor de cada espaciado disponible
+/// @type list
+// $spacing: (
+//   tiny:   round($line-height-computed * 0.25),
+//   small:  round($line-height-computed * 0.5),
+//   base:   $line-height-computed,
+//   medium: round($line-height-computed * 2),
+//   large:  round($line-height-computed * 3),
+//   huge:   round($line-height-computed * 4)
+// ) !default;
+
+/// Obtiene el valor en *positivo* del espaciado según su nombre.
+/// @example - scss
+///   margin-left: spacing(large);
+/// @param {string} $key - Nombre del espaciado deseado
+@function spacing($key) {
+ @if map-has-key($spacing, $key) {
+   @return map-get($spacing, $key);
+ }
+
+ @error 'Unknown spacing "#{$key}"';
+ @return null;
+}
+
+/// Obtiene el valor en *negativo* del espaciado según su nombre.
+/// @param {string} $key - Nombre del espaciado deseado
+@function -spacing($key) {
+@return - spacing($key);
+}

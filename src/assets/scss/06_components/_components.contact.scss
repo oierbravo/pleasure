@@ -1,0 +1,122 @@
+.c-contact{
+  justify-content: space-around;
+  margin: 32px 0;
+
+  @include media-breakpoint-up(sm) {
+    margin: 64px 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin: 99px 0;
+  }
+}
+
+.c-contact__item {
+  display: flex;
+  border-bottom: 1px solid $gray-light;
+
+  &:last-child {
+    border-bottom:0;
+  }
+
+  @include media-breakpoint-up(sm) {
+    border-right: 1px solid $gray-light;
+    border-bottom:0;
+
+    &:nth-child(n+3) {
+      border-top: 1px solid $gray-light;
+    }
+    &:nth-child(even) {
+      border-right: 0;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+
+    &:nth-child(n+3) {
+      border-top: 0;
+    }
+    &:nth-child(even) {
+      border-right: 1px solid $gray-light;
+    }
+  }
+}
+
+.c-contact__item__link{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+
+  @include media-breakpoint-down(xs) {
+    align-items: center;
+    width: 100%;
+  }
+
+  span{
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: $gray;
+    text-transform: uppercase;
+    margin: spacing(-1) 0;
+  }
+}
+
+.c-contact__item__mail {
+  @include typi(large);
+  display: inline-block;
+}
+
+.c-contact__item__ciudad {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+
+  @include media-breakpoint-up(sm) {
+    padding: 20px;
+  }
+
+  .c-contact__item__ciudad__map {
+    display: flex;
+    justify-content: center;
+	  align-items: center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    width: 48px;
+    height: 48px;
+    transition: all .3s ease;
+
+    &:hover {
+      border-color: $red;
+    }
+  }
+}
+
+.c-contact__item__ciudad__nombre {
+  font-family: "Montserrat", "Arial Black", sans-serif;
+  @include typi(large);
+  font-weight: 900;
+  margin-bottom: 10px;
+
+}
+
+.c-contact__item__ciudad__telefono{
+  color: $red;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+
+  hr {
+    float: left;
+    width: 60px;
+    border: 0;
+    border-bottom: 1px solid $black;
+  }
+}

@@ -1,0 +1,22 @@
+body {
+  color: $black;
+  font-family: "Lato", Arial, sans-serif;
+
+  border-top: 10px solid green;
+  @include media-breakpoint-only(sm) {
+    border-top: 10px solid blue;
+  }
+  @include media-breakpoint-only(md) {
+    border-top: 10px solid yellow;
+  }
+  @include media-breakpoint-only(lg) {
+    border-top: 10px solid orange;
+  }
+  @include media-breakpoint-up(xl) {
+    border-top: 10px solid red;
+  }
+  @include media-breakpoint-up(xxl) {
+    border-top: 10px solid darkorchid;
+  }
+  
+}

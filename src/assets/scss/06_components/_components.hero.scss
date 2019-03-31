@@ -1,0 +1,42 @@
+.c-hero {
+  padding-top: 80px;
+  padding-bottom: 40px;
+
+  @include media-breakpoint-up(sm) {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: 100px;
+  }
+
+  h1 br {
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
+
+  h1 a {
+    text-decoration: none;
+    color: $black;
+    font-weight: 900;
+    display: inline-block;
+    line-height: 40px;
+    border-bottom: 2px solid $black;
+    transition: all ease .3s;
+
+    @include media-breakpoint-up(sm) {
+      line-height: 50px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      line-height: 80px;
+    }
+
+    &:hover {
+      border-color: transparent;
+      color: $red;
+    }
+  }
+}
