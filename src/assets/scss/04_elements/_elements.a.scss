@@ -1,8 +1,8 @@
 a {
-  color: $red;
+  color: black;
   text-decoration: underline;
 
   &:hover {
-    color: darken($red, 40%);
+    color: darken(black, 40%);
   }
 }

@@ -1,3 +1,7 @@
-// Global variables, config switches, brand colours, etc.
 @import 'bootstrap/scss/variables';
+
+@import 'settings.breackpoints';
+@import 'settings.colors';
+@import 'settings.type';
+@import 'settings.spacing';
 @import 'settings.variables';

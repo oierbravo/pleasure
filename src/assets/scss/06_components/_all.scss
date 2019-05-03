@@ -1,34 +1,33 @@
+/* critical:start */
+
+@import 'components.header';
+
+/* critical:end */
+
 //@import 'bootstrap/scss/alert';
+//@import 'bootstrap/scss/badge';
+//@import 'bootstrap/scss/breadcrumb';
+//@import 'bootstrap/scss/button-group';
+//@import 'bootstrap/scss/buttons';
+//@import 'bootstrap/scss/card';
+//@import 'bootstrap/scss/carousel';
+//@import 'bootstrap/scss/close';
+//@import 'bootstrap/scss/code';
+//@import 'bootstrap/scss/custom-forms.scss';
+//@import 'bootstrap/scss/dropdown';
 //@import 'bootstrap/scss/forms';
 //@import 'bootstrap/scss/input-group';
-//@import 'bootstrap/scss/custom-forms';
-//@import 'bootstrap/scss/nav';
-//@import 'bootstrap/scss/carousel';
+//@import 'bootstrap/scss/jumbotron';
+//@import 'bootstrap/scss/list-group';
+//@import 'bootstrap/scss/media';
 //@import 'bootstrap/scss/modal';
-//@import 'bootstrap/scss/close';
-//@import 'bootstrap/scss/pagination';
-//@import 'bootstrap/scss/pagination';
-@import 'bootstrap/scss/utilities/display';
-@import 'bootstrap/scss/utilities/flex';
-@import 'bootstrap/scss/utilities/float';
+//@import 'bootstrap/scss/nav';
 @import 'bootstrap/scss/navbar';
-@import 'bootstrap/scss/transitions';
+//@import 'bootstrap/scss/pagination';
+//@import 'bootstrap/scss/popover';
+//@import 'bootstrap/scss/progress';
+//@import 'bootstrap/scss/spinners';
+//@import 'bootstrap/scss/toasts';
+//@import 'bootstrap/scss/tooltip';
 
-
-@import 'components.bg';
-@import 'components.box';
-@import 'components.button';
-@import 'components.cita';
-@import 'components.contact';
 @import 'components.footer';
-@import 'components.form';
-@import 'components.grid-image';
-@import 'components.header';
-@import 'components.hero';
-@import 'components.icon-list';
-@import 'components.icon-square';
-@import 'components.link';
-@import 'components.porfolio-carrusel';
-@import 'components.separator';
-@import 'components.social-list';
-@import 'components.title';

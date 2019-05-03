@@ -1,5 +1,11 @@
-/* critical:start */
 html {
   scroll-behavior: smooth;
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
 }
-/* critical:end */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

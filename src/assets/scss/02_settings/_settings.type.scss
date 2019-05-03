@@ -1,0 +1,44 @@
+$modularscale: (
+  base: 16px,
+  ratio: 1.125
+);
+
+// Line height
+$line-height-large: 1.5;
+$line-height-medium: 1.3;
+$line-height-small: 1.1;
+
+// Typi breackpoints
+$breakpoints: (
+  xs: map-get($grid-breakpoints, xs),
+  sm: map-get($grid-breakpoints, sm),
+  md: map-get($grid-breakpoints, md),
+  lg: map-get($grid-breakpoints, lg),
+  xl: map-get($grid-breakpoints, xl),
+  xxl: map-get($grid-breakpoints, xxl)
+);
+
+// Typi sizes
+$typi: (
+  xs: ( // 11px
+    null: (ms(-3), $line-height-medium),
+  ),
+  s: ( // 14px
+    null: (ms(-1), $line-height-medium),
+  ),
+  base: ( // 16px
+    null: (ms(0), $line-height-medium),
+  ),
+  m: ( // 20px
+    null: (ms(2), $line-height-medium),
+  ),
+  l: ( // 28px
+    null: (ms(5), $line-height-medium),
+  ),
+  xl: ( // 36px
+    null: (ms(7), $line-height-medium),
+  ),
+  xxl: ( // 46px
+    null: (ms(9), $line-height-medium),
+  ),
+);

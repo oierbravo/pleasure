@@ -1,5 +1,24 @@
- <header class="c-header">
+<header class="c-header">
   <div class="container">
-    {% include '_components/nav-bar-main.twig' %} 
+    <nav class="c-header__nav navbar navbar-expand-lg navbar-light">
+      <a class="c-header__nav__logo navbar-brand" href="/">
+        <img src="/assets/images/logo.png" alt="Logo" />
+      </a>
+
+      <button class="navbar-toggler js-open" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="c-header__navbar navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link {{activeMenu('index',currentMenu)}}" href="/">Menu 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{activeMenu('example',currentMenu)}}" href="/example">Menu 2</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
 </header>
