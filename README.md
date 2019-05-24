@@ -1,9 +1,11 @@
+[logo]: https://github.com/oierbravo/pleasure/raw/master/src/assets/images/logo.png "Pleasure"
+
 # Pleasure Static Site Generator
 > Twig based Static Site generator powered by gulp.
 
 ## Motivation
-There are a lot of static site generator out there but we alwais found ourselves tweaking and adjusting them.
-The idea is to use it as a boiler plate for basic static web sites. Tailored to our needs and workflows its intended to use as it is with no config required.
+There are a lot of static site generator out there but we always found ourselves tweaking and adjusting them.
+The idea is to use it as a boiler plate for basic static web sites. Tailored to our needs and workflows, its intended to use as it is with no config required.
 Heavily inspired on Jekyll.
 
 ## Prerequisites
@@ -15,7 +17,7 @@ Heavily inspired on Jekyll.
   npm install -G gulp-cli
   ```
 ## Download
-  - From: 
+  - From: https://github.com/oierbravo/pleasure/archive/0.1.zip
   - Last `release` recommended.
 
 ## Installation
