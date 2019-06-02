@@ -11,13 +11,8 @@ Heavily inspired on Jekyll.
 ## Prerequisites
 - ### Node.js
   - Basic installation, nothing fancy. https://nodejs.org
-- ### Gulp
-  - Install `gulp-cli` package globally. You may need `sudo` depending on your system.
-  ```
-  npm install -G gulp-cli
-  ```
 ## Download
-  - From: https://github.com/oierbravo/pleasure/archive/0.1.zip
+  - From: https://github.com/oierbravo/pleasure/archive/0.2.zip
   - Last `release` recommended.
 
 ## Installation
@@ -28,16 +23,16 @@ Heavily inspired on Jekyll.
 ## Development
 - Launch development environment
     ```
-  gulp
+  npm start
   ```
 ## Deploy (production ready)
 - Clean previous builds.
     ```
-  gulp clean --production
+  npm run clean
   ```
 - Compile everything for production.
     ```
-  gulp build --production
+  npm run build
   ```
 
 ## Structure
