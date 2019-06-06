@@ -12,7 +12,7 @@ Heavily inspired on Jekyll.
 - ### Node.js
   - Basic installation, nothing fancy. https://nodejs.org
 ## Download
-  - From: https://github.com/oierbravo/pleasure/archive/0.2.zip
+  - From: https://github.com/oierbravo/pleasure/archive/0.3.zip
   - Last `release` recommended.
 
 ## Installation
