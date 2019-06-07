@@ -1,4 +1,4 @@
-[logo]: https://github.com/oierbravo/pleasure/raw/master/src/assets/images/logo.png "Pleasure"
+![logo]:https://github.com/oierbravo/pleasure/raw/master/src/assets/images/logo.png "Pleasure"
 
 # Pleasure Static Site Generator
 > Twig based Static Site generator powered by gulp.
