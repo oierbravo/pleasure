@@ -1,4 +1,5 @@
 body {
   color: $black;
   font-family: Arial, sans-serif;
+  @include typi(base);
 }

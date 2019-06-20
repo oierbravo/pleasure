@@ -1,3 +1,4 @@
 p {
-  @include typi(base);
+  margin-bottom: spacing(base);
+  font-size: inherit;
 }
