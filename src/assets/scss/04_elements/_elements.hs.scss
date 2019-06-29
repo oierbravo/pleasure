@@ -8,8 +8,6 @@ h2 {
   font-family: "Arial Black", sans-serif;
   font-weight: 300;
   @include typi(xl);
-
-  strong {font-weight: 900;}
 }
 
 h3 {
