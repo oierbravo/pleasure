@@ -8,10 +8,18 @@ $( function() {
 //MENU MOBILE
 $(document).ready(function () {
   $('.navbar-toggler.collapsed').click(function () {
-    $('body').toggleClass('u-overflow-hidden');
+    $('body').toggleClass('overflow-hidden');
   });
   $('.navbar-toggler-icon').click(function () {
     $('.navbar-toggler-icon').toggleClass('navbar-toggler-icon--cerrar');
+  });
+  $('.nav-link').click(function () {
+    $('.navbar-toggler-icon').toggleClass('navbar-toggler-icon--cerrar');
+  });
+
+  $('.js-menu-collapse').click(function(){
+    $('.navbar-collapse').collapse('hide');
+    $('body').toggleClass('overflow-hidden');
   });
 });
 

@@ -1,0 +1,58 @@
+.eupopup {
+  width: 94%;
+  display: block !important;
+  position: fixed;
+  bottom: 10%;
+  right: 3%;
+  background: #fff;
+  color: #999;
+  z-index: 999;
+  text-align: left !important;
+  padding: 15px !important;
+
+  @include media-breakpoint-up(sm) {
+    padding: 25px !important;
+  }
+
+  @include media-breakpoint-up(md) {
+    width: 320px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    bottom: 5%;
+  }
+
+  .eupopup-head {
+    padding-left: 0;
+    font-size: 16px !important;
+  }
+  .eupopup-body {
+    font-size: 14px !important;
+    line-height: 20px;
+  }
+}
+
+.eupopup-buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.eupopup-button {
+  display: inline-block;
+  color: white !important;
+  padding: 10px 20px;
+  font-size: 14px !important;
+  border: 2px solid black;
+}
+
+.eupopup-closebutton {
+  position: relative !important;
+  padding: 10px 20px !important;
+}
+
+.c-cookies__link {
+  display: inline-block;
+  margin-top: 20px !important;
+  color: white !important;
+  font-size: 14px !important;
+}

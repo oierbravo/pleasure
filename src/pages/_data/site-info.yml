@@ -1,14 +1,15 @@
-site: 
+site:
   name: Prueba
   url: http://localhost
   googleAnalitycsId: UA-XXXXXXXX-1
-description: Esto es una descripcion basica.
-author: WhoKnows
+  description: Esto es una descripcion basica.
+  author: WhoKnows
 og:
   title: TituloOG
   description: DescriptionOG
   type: article
   image: http(s)://url-de-la-imagen-og
+  locale: es
 twitter:
   card: summary
   title: TituloTwitter
