@@ -1,6 +1,7 @@
 a {
   color: black;
   text-decoration: underline;
+  transition: all .3s ease;
 
   &:hover {
     color: darken(black, 40%);
