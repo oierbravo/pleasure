@@ -1,21 +1,22 @@
-{% extends "_layouts/page.twig" %}
+{% extends "layouts::/page.twig" %}
 {% block page %}
 
 <section>
   <div class="container">
     <div class="row">
       <div class="col-12">
+      <h3>INCLUDE EXAMPLE</h3>
+        {% include "base::example/partial.twig" %}
+
+        <h3>SVG INJECT</h3>
+        {{svgSprite('menu')}}
+
       </div>
     </div>
   </div>
 </section>
 
 
-# INCLUDE EXAMPLE
-{% include "example/partial.twig" %}
-
-# SVG INJECT
-{{svgSprite('menu')}}
 
 
 

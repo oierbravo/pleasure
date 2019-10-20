@@ -1,0 +1,65 @@
+backend:
+  name: github
+  repo: GITHUB_USER/REPO # Branch to update (optional; defaults to master)
+  #branch: netlifycms
+media_folder: 'src/assets/images/uploads'
+public_folder: "/assets/images/uploads"
+site_url: https://example.com
+slug:
+  encoding: "ascii"
+  clean_accents: true
+collections:
+  - name: 'NETLIFY-CONTENT-NAME'
+    label: 'NOMBRE CONTENIDO'
+    folder: 'content/NETLIFY-CONTENT-NAME'
+    create: true
+    format: 'json'
+    slug: "NETLIFY-CONTENT-NAME/{{slug}}"
+    fields:
+      - { label: Título,
+          name: "title",
+          hint: 'Titulo de la noticia. Genera la url apartir de este campo.',
+          widget: "string" }
+      - { label: Categoría,
+          name: "category",
+          widget: "select",
+          options: ["Nota de prensa", "Medios"] }
+      - { label: Lugar,
+          name: "place",
+          widget: "string" }
+      - { label: Fecha,
+          name: "date",
+          widget: "datetime",
+          timeFormat:false
+          }
+      - { label: Entradilla,
+          name: "teaser",
+          hint: 'Visible en la ficha de la noticia y en la página de listado.',
+          widget: "markdown" }
+      - { label: Cuerpo,
+          name: "body",
+          widget: "markdown",
+          required: false }
+      - { label: Firma,
+          name: "signature",
+          widget: "markdown",
+          required: false }
+      - { label: UrlExterna,
+          name: "urlExternal",
+          widget: "string",
+          required: false,
+          pattern: ['[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', "Introduce una url basica."] }
+      - { label: Imagen,
+          name: "image",
+          widget: "image",
+          allow_multiple:false }
+      - { label: Titulo SEO,
+          name: "titleSEO",
+          hint: "Titulo especifico para SEO, máximo 65 caracteres.",
+          pattern: [".{1,65}", "Máximo 65 caracteres"],
+          widget: "string",}   
+      - { label: Descripción SEO,
+          name: "descriptionSEO",
+          hint: "Descripción especifica para SEO, máximo 155 caracteres.",
+          pattern: [".{1,155}", "Máximo 155 caracteres"],
+          widget: "text"}

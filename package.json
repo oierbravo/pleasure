@@ -1,6 +1,6 @@
 {
   "name": "pleasure",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Twig based Static Site Generator, powered by gulp.",
   "main": "gulpfile.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "devDependencies": {
     "bootstrap": "^4.3.1",
     "gulp": "^4.0.0",
-    "gulp-tasks-pleasure": "0.0.5",
+    "gulp-tasks-pleasure": "0.0.9",
     "include-media": "^1.4.9",
     "jquery": "^3.3.1",
     "modularscale-sass": "^3.0.8",
