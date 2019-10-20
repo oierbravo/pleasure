@@ -88,6 +88,28 @@ src/pages/
 
 ```
 
+
+### NetlifyCMS
+
+#### Admin Configuration: `src/static/admin/config.yml`
+Normal NetlifyCMS config file. Modify as needed. `name` act as machinename. Important for folder naming and final url.
+
+#### Template convention
+```
+src/pages/content-name
+  |-- list.twig (content list page)
+  |-- item.twig (content item page)
+```
+#### Content convention
+```
+content/content-name
+  |-- slug.json (a file per item)
+```
+
+### Twig Template System
+#### Custom functions
+
+
 ### SVG Spritesheet
 
 ## Nuts and bolts
@@ -102,10 +124,11 @@ src/pages/
 - ### SVG Icon Spritesheet
 - ### Defaults
 - ### GRDP
+- ### NetlifyCMS
 
 
 ## ToDo:
-- Critical split
+- Critical split - missing string inject into style
 - Responsive images
 - Documentation
 - Default non intrusive html and sass
