@@ -1,2 +1,2 @@
 var gulp = require('gulp');
-require('../gulp-tasks-pleasure')(gulp);
+require('gulp-tasks-pleasure')(gulp);
