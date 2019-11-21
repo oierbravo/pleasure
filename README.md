@@ -1,4 +1,7 @@
-![logo]:https://github.com/oierbravo/pleasure/raw/master/src/assets/images/logo.png "Pleasure"
+![alt text][logo]
+[logo]: https://github.com/oierbravo/pleasure/raw/master/src/assets/images/logo.png "Pleasure"
+
+![Pleasure](src/assets/images/logo.png)
 
 # Pleasure Static Site Generator
 > Twig based Static Site generator powered by gulp.
@@ -34,6 +37,13 @@ Heavily inspired on Jekyll.
     ```
   npm run build
   ```
+
+## Deploy (Netlify)
+- Build command: `npm run build`
+- Publish directory: `build`
+
+## Automatic Netlify Deploy
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/oierbravo/pleasure)
 
 ## Structure
 > Some simples and some advanced.
