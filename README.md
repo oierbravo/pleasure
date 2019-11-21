@@ -1,6 +1,3 @@
-![alt text][logo]
-[logo]: https://github.com/oierbravo/pleasure/raw/master/src/assets/images/logo.png "Pleasure"
-
 ![Pleasure](src/assets/images/logo.png)
 
 # Pleasure Static Site Generator
